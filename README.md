@@ -1,42 +1,50 @@
-# Generic Open-PSA Models
+# Aralia Fault Trees
 
-<!-- TOC -->
-* [Generic Open-PSA Models](#generic-open-psa-models)
-  * [1. OpenPSA Model Exchange Format](#1-openpsa-model-exchange-format)
-  * [2. Generation of Models](#2-generation-of-models)
-  * [3. Configuration of Models](#3-configuration-of-models)
-  * [4. Usage](#4-usage)
-  * [5. Additional References Related to Generic Models](#5-additional-references-related-to-generic-models)
-<!-- TOC -->
-
-This repository includes generic models in OpenPSA XML format. The goals of including these models are to:
-
-- Serve as test cases for various PRA tools, including [Open-PRA](https://github.com/openpra-org/openpra-monorepo).
-- Familiarize users with different modeling approaches and formats.
-- Provide a reference for PRA model exchange.
-- And more.
-
-The repository also maintains a `schema` for the models.
-
-## 1. OpenPSA Model Exchange Format
-The [OpenPSA Model Exchange Format (MEF)](https://open-psa.github.io/mef/index.html) represents about a decade of effort to develop a format independent of any specific 
-quantification engine. The goal was to create a standard that researchers, corporations, and regulators could use collaboratively in an open environment.
-
-## 2. Generation of Models
-Models were gathered from [SCRAM](https://github.com/rakhimov/scram) project.
-
-## 3. Configuration of Models
-Various models are available in different configurations.
-
-## 4. Usage
-These models can be used to test quantification engines. Additionally, they enable the creation of a verification platform between quantification engines, allowing developers or practitioners to cross-check their results. Moreover, these models serve as a foundation for benchmarking efforts for any quantification tool.
-
-## 5. Additional References Related to Generic Models
-
-- A. Rauzy, E. Châtelet, Y. Dutuit, and C. Bérenguer, “A practical comparison of methods to assess sum-of-products,” Reliability Engineering & System Safety, vol. 79, no. 1, pp. 33–42, Jan. 2003, doi: 10.1016/S0951-8320(02)00165-5.
-- E. M. Aras, “Enhancement Methodology for Probabilistic Risk Assessment Tools through Diagnostics, Optimization, and Parallel Computing,” Doctor of Philosophy, North Carolina State University, Raleigh, North Carolina, 2024. [Online]. Available: https://repository.lib.ncsu.edu/items/bb05f7f5-1cff-4beb-9312-331bc94b0b95
-
-
+| #   | Fault Tree | Basic Events | Logic Gates: Total | AND | VOT | XOR | NOT | Minimal Cut Sets      | Top Event Probability |
+|-----|------------|--------------|--------------------|-----|-----|-----|-----|----------------------|----------------------|
+| 1   | baobab1    | 61           | 84                 | 16  | 9   | -   | -   | 46,188               | 1.01708E-04          |
+| 2   | baobab2    | 32           | 40                 | 5   | 6   | -   | -   | 4,805                | 7.13018E-04          |
+| 3   | baobab3    | 80           | 107                | 46  | -   | -   | -   | 24,386               | 2.24117E-03          |
+| 4   | cea9601    | 186          | 201                | 69  | 8   | -   | 30  | 130,281,976          | 1.48409E-03          |
+| 5   | chinese    | 25           | 36                 | 13  | -   | -   | -   | 392                  | 1.17058E-03          |
+| 6   | das9201    | 122          | 82                 | 19  | -   | -   | -   | 14,217               | 1.34237E-02          |
+| 7   | das9202    | 49           | 36                 | 10  | -   | -   | -   | 27,778               | 1.01154E-02          |
+| 8   | das9203    | 51           | 30                 | 1   | -   | -   | -   | 16,200               | 1.34880E-03          |
+| 9   | das9204    | 53           | 30                 | 12  | -   | -   | -   | 16,704               | 6.07651E-08          |
+| 10  | das9205    | 51           | 20                 | 2   | -   | -   | -   | 17,280               | 1.38408E-08          |
+| 11  | das9206    | 121          | 112                | 21  | -   | -   | -   | 19,518               | 2.29687E-01          |
+| 12  | das9207    | 276          | 324                | 59  | -   | -   | -   | 25,988               | 3.46696E-01          |
+| 13  | das9208    | 103          | 145                | 33  | -   | -   | -   | 8,060                | 1.30179E-02          |
+| 14  | das9209    | 109          | 73                 | 18  | -   | -   | -   | 8.20E+10             | 1.05800E-13          |
+| 15  | das9601    | 122          | 288                | 60  | 36  | 12  | 14  | 4,259                | 4.23440E-03          |
+| 16  | das9701    | 267          | 2,226              | 1,739| -  | -   | 992 | 26,299,506           | 7.44694E-02          |
+| 17  | edf9201    | 183          | 132                | 12  | -   | -   | -   | 579,720              | 3.24591E-01          |
+| 18  | edf9202    | 458          | 435                | 45  | -   | -   | -   | 130,112              | 7.81302E-01          |
+| 19  | edf9203    | 362          | 475                | 117 | -   | -   | -   | 20,807,446           | 5.99589E-01          |
+| 20  | edf9204    | 323          | 375                | 106 | -   | -   | -   | 32,580,630           | 5.25374E-01          |
+| 21  | edf9205    | 165          | 142                | 30  | -   | -   | -   | 21,308               | 2.09351E-01          |
+| 22  | edf9206    | 240          | 362                | 126 | -   | -   | -   | 385,825,320          | 8.61500E-12          |
+| 23  | edfpa14b   | 311          | 290                | 70  | -   | -   | -   | 105,955,422          | 2.95620E-01          |
+| 24  | edfpa14o   | 311          | 173                | 42  | -   | -   | -   | 105,927,244          | 2.97057E-01          |
+| 25  | edfpa14p   | 124          | 101                | 42  | -   | -   | -   | 415,500              | 8.07059E-02          |
+| 26  | edfpa14q   | 311          | 194                | 55  | -   | -   | -   | 105,950,670          | 2.95905E-01          |
+| 27  | edfpa14r   | 106          | 132                | 55  | -   | -   | -   | 380,412              | 2.09977E-02          |
+| 28  | edfpa15b   | 283          | 249                | 61  | -   | -   | -   | 2,910,473            | 3.62737E-01          |
+| 29  | edfpa15o   | 283          | 138                | 33  | -   | -   | -   | 2,906,753            | 3.62956E-01          |
+| 30  | edfpa15p   | 276          | 324                | 33  | -   | -   | -   | 27,870               | 7.36302E-02          |
+| 31  | edfpa15q   | 283          | 158                | 45  | -   | -   | -   | 2,910,473            | 3.62737E-01          |
+| 32  | edfpa15r   | 88           | 110                | 45  | -   | -   | -   | 26,549               | 1.89750E-02          |
+| 33  | elf9601    | 145          | 242                | 97  | -   | -   | -   | 151,348              | 9.66291E-02          |
+| 34  | ftr10      | 175          | 94                 | 26  | -   | -   | -   | 305                   | 4.48677E-01          |
+| 35  | isp9601    | 143          | 104                | 25  | 1   | -   | -   | 276,785              | 5.71245E-02          |
+| 36  | isp9602    | 116          | 122                | 26  | -   | -   | -   | 5,197,647            | 1.72447E-02          |
+| 37  | isp9603    | 91           | 95                 | 37  | -   | -   | -   | 3,434                | 3.23326E-03          |
+| 38  | isp9604    | 215          | 132                | 38  | -   | -   | -   | 746,574              | 1.42751E-01          |
+| 39  | isp9605    | 32           | 40                 | 8   | 6   | -   | -   | 5,630                | 1.37171E-05          |
+| 40  | isp9606    | 89           | 41                 | 14  | -   | -   | -   | 1,776                | 5.43174E-02          |
+| 41  | isp9607    | 74           | 65                 | 23  | -   | -   | -   | 150,436              | 9.49510E-07          |
+| 42  | jbd9601    | 533          | 315                | 71  | -   | -   | -   | 150,436              | 7.55091E-01          |
+| 43  | nus9601    | 1,567        | 1,622              | 392 | 47  | -   | -   | unknown               | unknown              |
 
 
 
