@@ -1,5 +1,7 @@
 # Aralia Fault Trees
 
+43 fault trees, with a wide range of gate types, minimal cut sets, and top event probabilities.
+
 | #   | Fault Tree | Basic Events | Logic Gates: Total | AND | VOT | XOR | NOT | Minimal Cut Sets      | Top Event Probability |
 |-----|------------|--------------|--------------------|-----|-----|-----|-----|----------------------|----------------------|
 | 1   | baobab1    | 61           | 84                 | 16  | 9   | -   | -   | 46,188               | 1.01708E-04          |
