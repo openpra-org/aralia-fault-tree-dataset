@@ -1,0 +1,2 @@
+load model "<MODEL>" format=open-psa;
+load script "<SCRIPT>";

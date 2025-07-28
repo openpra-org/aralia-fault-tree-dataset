@@ -1,0 +1,10 @@
+./xfta2 tasks/cea9601.bdd_prb.xfta2
+
+
+--------------------------------------------------------------------------------
+
+
+load XFTA script tasks/cea9601.bdd_prb.xfta2
+execute XFTA script tasks/cea9601.bdd_prb.xfta2
+load XFTA script defaults/bdd_prb.xfta2
+execute XFTA script defaults/bdd_prb.xfta2

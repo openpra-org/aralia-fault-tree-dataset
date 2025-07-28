@@ -1,0 +1,2 @@
+load model "models/baobab3.xml" format=open-psa;
+load script "defaults/bdt_mcs.xfta2";

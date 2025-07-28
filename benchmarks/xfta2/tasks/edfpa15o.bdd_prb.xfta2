@@ -1,0 +1,2 @@
+load model "models/edfpa15o.xml" format=open-psa;
+load script "defaults/bdd_prb.xfta2";

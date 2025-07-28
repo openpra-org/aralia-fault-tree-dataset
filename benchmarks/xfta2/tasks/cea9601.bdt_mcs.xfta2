@@ -1,0 +1,2 @@
+load model "models/cea9601.xml" format=open-psa;
+load script "defaults/bdt_mcs.xfta2";

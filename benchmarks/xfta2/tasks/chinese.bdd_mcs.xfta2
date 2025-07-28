@@ -1,0 +1,2 @@
+load model "models/chinese.xml" format=open-psa;
+load script "defaults/bdd_mcs.xfta2";

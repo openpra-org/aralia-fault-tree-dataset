@@ -1,0 +1,2 @@
+load model "models/das9204.xml" format=open-psa;
+load script "defaults/bdt_pub.xfta2";

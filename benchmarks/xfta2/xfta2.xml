@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE benchmark PUBLIC "+//IDN sosy-lab.org//DTD BenchExec benchmark 3.30//EN" "https://www.sosy-lab.org/benchexec/benchmark-3.30.dtd">
+<benchmark tool="tools.xfta2" displayName="XFTA2">
+    <rundefinition name="fast-queue">
+        <tasks name="prb">
+            <include>${benchmark_path}/tasks/*bdd_prb.xfta2</include>
+        </tasks>
+        <tasks name="rea">
+            <include>${benchmark_path}/tasks/*rea.xfta2</include>
+        </tasks>
+        <tasks name="mub">
+            <include>${benchmark_path}/tasks/*mub.xfta2</include>
+        </tasks>
+        <tasks name="pub">
+            <include>${benchmark_path}/tasks/*pub.xfta2</include>
+        </tasks>
+        <tasks name="bdd_mcs">
+            <include>${benchmark_path}/tasks/*bdd_mcs.xfta2</include>
+        </tasks>
+        <tasks name="bdt_mcs">
+            <include>${benchmark_path}/tasks/*bdt_mcs.xfta2</include>
+        </tasks>
+    </rundefinition>
+</benchmark>

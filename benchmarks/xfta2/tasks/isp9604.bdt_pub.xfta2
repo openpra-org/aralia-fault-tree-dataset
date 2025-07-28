@@ -1,0 +1,2 @@
+load model "models/isp9604.xml" format=open-psa;
+load script "defaults/bdt_pub.xfta2";

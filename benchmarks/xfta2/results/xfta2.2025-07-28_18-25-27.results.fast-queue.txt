@@ -1,0 +1,76 @@
+   BENCHMARK INFORMATION
+XFTA2
+benchmark definition:    xfta2.xml
+name:                    xfta2
+run sets:                fast-queue
+date:                    Mon, 2025-07-28 18:25:27 EDT
+tool:                    xfta 2.0.1
+tool executable:         ./xfta2
+options:
+parallel runs:           3
+resource limits:
+- time:                  600 s
+hardware requirements:
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    gaia
+os:                      Linux-6.8.0-60-generic-x86_64-with-glibc2.35
+cpu:                     Intel Xeon CPU E5-2630 v2 @ 2.60GHz
+- cores:                 24
+- max frequency:         3100.0 MHz
+- turbo boost enabled:   True
+ram:                     135136.45670399998 MB
+------------------------------------------------------------
+
+
+
+fast-queue
+Run set 1 of 1 with options '' and propertyfile 'None'
+
+inputfile                 status                       cpu time   wall time        host
+---------------------------------------------------------------------------------------
+baobab2.bdd_prb.xfta2     done                             0.03        0.03        None
+baobab1.bdd_prb.xfta2     done                             0.04        0.04        None
+baobab3.bdd_prb.xfta2     done                             0.06        0.06        None
+chinese.bdd_prb.xfta2     done                             0.02        0.02        None
+das9201.bdd_prb.xfta2     done                             0.03        0.03        None
+das9203.bdd_prb.xfta2     done                             0.02        0.02        None
+das9202.bdd_prb.xfta2     done                             0.02        0.02        None
+das9205.bdd_prb.xfta2     done                             0.02        0.02        None
+das9204.bdd_prb.xfta2     done                             0.02        0.02        None
+das9206.bdd_prb.xfta2     done                             0.04        0.04        None
+das9207.bdd_prb.xfta2     done                             0.16        0.16        None
+das9208.bdd_prb.xfta2     done                             0.05        0.05        None
+das9209.bdd_prb.xfta2     done                             0.02        0.03        None
+das9601.bdd_prb.xfta2     done                             0.46        0.46        None
+edf9201.bdd_prb.xfta2     done                             0.06        0.06        None
+das9701.bdd_prb.xfta2     ERROR (1)                       67.29       67.43        None
+edf9203.bdd_prb.xfta2     done                             1.02        1.03        None
+edf9202.bdd_prb.xfta2     done                           176.33      176.68        None
+edf9205.bdd_prb.xfta2     done                             0.05        0.05        None
+edf9206.bdd_prb.xfta2     done                             0.55        0.55        None
+edfpa14b.bdd_prb.xfta2    done                             0.69        0.69        None
+edfpa14o.bdd_prb.xfta2    done                             7.02        7.04        None
+edfpa14p.bdd_prb.xfta2    done                             0.21        0.21        None
+edfpa14q.bdd_prb.xfta2    done                             2.06        2.06        None
+edfpa14r.bdd_prb.xfta2    done                             0.27        0.27        None
+edfpa15b.bdd_prb.xfta2    done                             0.36        0.37        None
+edfpa15o.bdd_prb.xfta2    done                             0.56        0.56        None
+edfpa15p.bdd_prb.xfta2    done                             0.17        0.17        None
+edfpa15q.bdd_prb.xfta2    done                             0.28        0.28        None
+edfpa15r.bdd_prb.xfta2    done                             0.10        0.10        None
+elf9601.bdd_prb.xfta2     done                             1.09        1.09        None
+ftr10.bdd_prb.xfta2       done                             0.03        0.03        None
+isp9601.bdd_prb.xfta2     done                             0.03        0.03        None
+edf9204.bdd_prb.xfta2     done                           124.93      125.20        None
+isp9602.bdd_prb.xfta2     done                             0.04        0.04        None
+isp9603.bdd_prb.xfta2     done                             0.03        0.03        None
+isp9604.bdd_prb.xfta2     done                             0.05        0.05        None
+isp9605.bdd_prb.xfta2     done                             0.02        0.02        None
+isp9606.bdd_prb.xfta2     done                             0.02        0.02        None
+isp9607.bdd_prb.xfta2     done                             0.03        0.03        None
+jbd9601.bdd_prb.xfta2     done                             1.13        1.13        None
+baobab1.bdt_rea.xfta2     done                             0.61        0.62        None
+baobab2.bdt_rea.xfta2     done                             0.03        0.04        None
+baobab3.bdt_rea.xfta2     done                             0.22        0.22        None

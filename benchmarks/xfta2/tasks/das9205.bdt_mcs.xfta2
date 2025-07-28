@@ -1,0 +1,2 @@
+load model "models/das9205.xml" format=open-psa;
+load script "defaults/bdt_mcs.xfta2";

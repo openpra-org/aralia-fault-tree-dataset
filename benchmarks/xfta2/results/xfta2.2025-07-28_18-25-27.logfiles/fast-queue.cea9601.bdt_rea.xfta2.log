@@ -1,0 +1,10 @@
+./xfta2 tasks/cea9601.bdt_rea.xfta2
+
+
+--------------------------------------------------------------------------------
+
+
+load XFTA script tasks/cea9601.bdt_rea.xfta2
+execute XFTA script tasks/cea9601.bdt_rea.xfta2
+load XFTA script defaults/bdt_rea.xfta2
+execute XFTA script defaults/bdt_rea.xfta2

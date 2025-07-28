@@ -1,0 +1,2 @@
+load model "models/nus9601.xml" format=open-psa;
+load script "defaults/bdd_mcs.xfta2";

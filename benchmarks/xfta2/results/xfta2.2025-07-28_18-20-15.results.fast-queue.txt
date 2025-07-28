@@ -1,0 +1,303 @@
+   BENCHMARK INFORMATION
+XFTA2
+benchmark definition:    xfta2.xml
+name:                    xfta2
+run sets:                fast-queue
+date:                    Mon, 2025-07-28 18:20:15 EDT
+tool:                    xfta 2.0.1
+tool executable:         ./xfta2
+options:
+parallel runs:           3
+resource limits:
+- memory:                10000.0 MB
+- time:                  600 s
+hardware requirements:
+- memory:                10000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    gaia
+os:                      Linux-6.8.0-60-generic-x86_64-with-glibc2.35
+cpu:                     Intel Xeon CPU E5-2630 v2 @ 2.60GHz
+- cores:                 24
+- max frequency:         3100.0 MHz
+- turbo boost enabled:   True
+ram:                     135136.45670399998 MB
+------------------------------------------------------------
+
+
+
+fast-queue
+Run set 1 of 1 with options '' and propertyfile 'None'
+
+inputfile                 status                       cpu time   wall time        host
+---------------------------------------------------------------------------------------
+baobab1.bdd_prb.xfta2     done                             0.04        0.04        None
+baobab2.bdd_prb.xfta2     done                             0.03        0.03        None
+baobab3.bdd_prb.xfta2     done                             0.06        0.06        None
+cea9601.bdd_prb.xfta2     
+chinese.bdd_prb.xfta2     done                             0.02        0.02        None
+das9201.bdd_prb.xfta2     done                             0.03        0.03        None
+das9202.bdd_prb.xfta2     done                             0.02        0.02        None
+das9203.bdd_prb.xfta2     done                             0.02        0.02        None
+das9204.bdd_prb.xfta2     done                             0.02        0.02        None
+das9205.bdd_prb.xfta2     done                             0.02        0.02        None
+das9206.bdd_prb.xfta2     done                             0.04        0.04        None
+das9207.bdd_prb.xfta2     done                             0.16        0.17        None
+das9208.bdd_prb.xfta2     done                             0.05        0.05        None
+das9209.bdd_prb.xfta2     done                             0.02        0.03        None
+das9601.bdd_prb.xfta2     done                             0.43        0.43        None
+das9701.bdd_prb.xfta2     ERROR (1)                       64.09       64.23        None
+edf9201.bdd_prb.xfta2     done                             0.06        0.06        None
+edf9202.bdd_prb.xfta2     
+edf9203.bdd_prb.xfta2     done                             0.85        0.85        None
+edf9204.bdd_prb.xfta2     
+edf9205.bdd_prb.xfta2     
+edf9206.bdd_prb.xfta2     
+edfpa14b.bdd_prb.xfta2    
+edfpa14o.bdd_prb.xfta2    
+edfpa14p.bdd_prb.xfta2    
+edfpa14q.bdd_prb.xfta2    
+edfpa14r.bdd_prb.xfta2    
+edfpa15b.bdd_prb.xfta2    
+edfpa15o.bdd_prb.xfta2    
+edfpa15p.bdd_prb.xfta2    
+edfpa15q.bdd_prb.xfta2    
+edfpa15r.bdd_prb.xfta2    
+elf9601.bdd_prb.xfta2     
+ftr10.bdd_prb.xfta2       
+isp9601.bdd_prb.xfta2     
+isp9602.bdd_prb.xfta2     
+isp9603.bdd_prb.xfta2     
+isp9604.bdd_prb.xfta2     
+isp9605.bdd_prb.xfta2     
+isp9606.bdd_prb.xfta2     
+isp9607.bdd_prb.xfta2     
+jbd9601.bdd_prb.xfta2     
+nus9601.bdd_prb.xfta2     
+baobab1.bdt_rea.xfta2     
+baobab2.bdt_rea.xfta2     
+baobab3.bdt_rea.xfta2     
+cea9601.bdt_rea.xfta2     
+chinese.bdt_rea.xfta2     
+das9201.bdt_rea.xfta2     
+das9202.bdt_rea.xfta2     
+das9203.bdt_rea.xfta2     
+das9204.bdt_rea.xfta2     
+das9205.bdt_rea.xfta2     
+das9206.bdt_rea.xfta2     
+das9207.bdt_rea.xfta2     
+das9208.bdt_rea.xfta2     
+das9209.bdt_rea.xfta2     
+das9601.bdt_rea.xfta2     
+das9701.bdt_rea.xfta2     
+edf9201.bdt_rea.xfta2     
+edf9202.bdt_rea.xfta2     
+edf9203.bdt_rea.xfta2     
+edf9204.bdt_rea.xfta2     
+edf9205.bdt_rea.xfta2     
+edf9206.bdt_rea.xfta2     
+edfpa14b.bdt_rea.xfta2    
+edfpa14o.bdt_rea.xfta2    
+edfpa14p.bdt_rea.xfta2    
+edfpa14q.bdt_rea.xfta2    
+edfpa14r.bdt_rea.xfta2    
+edfpa15b.bdt_rea.xfta2    
+edfpa15o.bdt_rea.xfta2    
+edfpa15p.bdt_rea.xfta2    
+edfpa15q.bdt_rea.xfta2    
+edfpa15r.bdt_rea.xfta2    
+elf9601.bdt_rea.xfta2     
+ftr10.bdt_rea.xfta2       
+isp9601.bdt_rea.xfta2     
+isp9602.bdt_rea.xfta2     
+isp9603.bdt_rea.xfta2     
+isp9604.bdt_rea.xfta2     
+isp9605.bdt_rea.xfta2     
+isp9606.bdt_rea.xfta2     
+isp9607.bdt_rea.xfta2     
+jbd9601.bdt_rea.xfta2     
+nus9601.bdt_rea.xfta2     
+baobab1.bdt_mub.xfta2     
+baobab2.bdt_mub.xfta2     
+baobab3.bdt_mub.xfta2     
+cea9601.bdt_mub.xfta2     
+chinese.bdt_mub.xfta2     
+das9201.bdt_mub.xfta2     
+das9202.bdt_mub.xfta2     
+das9203.bdt_mub.xfta2     
+das9204.bdt_mub.xfta2     
+das9205.bdt_mub.xfta2     
+das9206.bdt_mub.xfta2     
+das9207.bdt_mub.xfta2     
+das9208.bdt_mub.xfta2     
+das9209.bdt_mub.xfta2     
+das9601.bdt_mub.xfta2     
+das9701.bdt_mub.xfta2     
+edf9201.bdt_mub.xfta2     
+edf9202.bdt_mub.xfta2     
+edf9203.bdt_mub.xfta2     
+edf9204.bdt_mub.xfta2     
+edf9205.bdt_mub.xfta2     
+edf9206.bdt_mub.xfta2     
+edfpa14b.bdt_mub.xfta2    
+edfpa14o.bdt_mub.xfta2    
+edfpa14p.bdt_mub.xfta2    
+edfpa14q.bdt_mub.xfta2    
+edfpa14r.bdt_mub.xfta2    
+edfpa15b.bdt_mub.xfta2    
+edfpa15o.bdt_mub.xfta2    
+edfpa15p.bdt_mub.xfta2    
+edfpa15q.bdt_mub.xfta2    
+edfpa15r.bdt_mub.xfta2    
+elf9601.bdt_mub.xfta2     
+ftr10.bdt_mub.xfta2       
+isp9601.bdt_mub.xfta2     
+isp9602.bdt_mub.xfta2     
+isp9603.bdt_mub.xfta2     
+isp9604.bdt_mub.xfta2     
+isp9605.bdt_mub.xfta2     
+isp9606.bdt_mub.xfta2     
+isp9607.bdt_mub.xfta2     
+jbd9601.bdt_mub.xfta2     
+nus9601.bdt_mub.xfta2     
+baobab1.bdt_pub.xfta2     
+baobab2.bdt_pub.xfta2     
+baobab3.bdt_pub.xfta2     
+cea9601.bdt_pub.xfta2     
+chinese.bdt_pub.xfta2     
+das9201.bdt_pub.xfta2     
+das9202.bdt_pub.xfta2     
+das9203.bdt_pub.xfta2     
+das9204.bdt_pub.xfta2     
+das9205.bdt_pub.xfta2     
+das9206.bdt_pub.xfta2     
+das9207.bdt_pub.xfta2     
+das9208.bdt_pub.xfta2     
+das9209.bdt_pub.xfta2     
+das9601.bdt_pub.xfta2     
+das9701.bdt_pub.xfta2     
+edf9201.bdt_pub.xfta2     
+edf9202.bdt_pub.xfta2     
+edf9203.bdt_pub.xfta2     
+edf9204.bdt_pub.xfta2     
+edf9205.bdt_pub.xfta2     
+edf9206.bdt_pub.xfta2     
+edfpa14b.bdt_pub.xfta2    
+edfpa14o.bdt_pub.xfta2    
+edfpa14p.bdt_pub.xfta2    
+edfpa14q.bdt_pub.xfta2    
+edfpa14r.bdt_pub.xfta2    
+edfpa15b.bdt_pub.xfta2    
+edfpa15o.bdt_pub.xfta2    
+edfpa15p.bdt_pub.xfta2    
+edfpa15q.bdt_pub.xfta2    
+edfpa15r.bdt_pub.xfta2    
+elf9601.bdt_pub.xfta2     
+ftr10.bdt_pub.xfta2       
+isp9601.bdt_pub.xfta2     
+isp9602.bdt_pub.xfta2     
+isp9603.bdt_pub.xfta2     
+isp9604.bdt_pub.xfta2     
+isp9605.bdt_pub.xfta2     
+isp9606.bdt_pub.xfta2     
+isp9607.bdt_pub.xfta2     
+jbd9601.bdt_pub.xfta2     
+nus9601.bdt_pub.xfta2     
+baobab1.bdd_mcs.xfta2     
+baobab2.bdd_mcs.xfta2     
+baobab3.bdd_mcs.xfta2     
+cea9601.bdd_mcs.xfta2     
+chinese.bdd_mcs.xfta2     
+das9201.bdd_mcs.xfta2     
+das9202.bdd_mcs.xfta2     
+das9203.bdd_mcs.xfta2     
+das9204.bdd_mcs.xfta2     
+das9205.bdd_mcs.xfta2     
+das9206.bdd_mcs.xfta2     
+das9207.bdd_mcs.xfta2     
+das9208.bdd_mcs.xfta2     
+das9209.bdd_mcs.xfta2     
+das9601.bdd_mcs.xfta2     
+das9701.bdd_mcs.xfta2     
+edf9201.bdd_mcs.xfta2     
+edf9202.bdd_mcs.xfta2     
+edf9203.bdd_mcs.xfta2     
+edf9204.bdd_mcs.xfta2     
+edf9205.bdd_mcs.xfta2     
+edf9206.bdd_mcs.xfta2     
+edfpa14b.bdd_mcs.xfta2    
+edfpa14o.bdd_mcs.xfta2    
+edfpa14p.bdd_mcs.xfta2    
+edfpa14q.bdd_mcs.xfta2    
+edfpa14r.bdd_mcs.xfta2    
+edfpa15b.bdd_mcs.xfta2    
+edfpa15o.bdd_mcs.xfta2    
+edfpa15p.bdd_mcs.xfta2    
+edfpa15q.bdd_mcs.xfta2    
+edfpa15r.bdd_mcs.xfta2    
+elf9601.bdd_mcs.xfta2     
+ftr10.bdd_mcs.xfta2       
+isp9601.bdd_mcs.xfta2     
+isp9602.bdd_mcs.xfta2     
+isp9603.bdd_mcs.xfta2     
+isp9604.bdd_mcs.xfta2     
+isp9605.bdd_mcs.xfta2     
+isp9606.bdd_mcs.xfta2     
+isp9607.bdd_mcs.xfta2     
+jbd9601.bdd_mcs.xfta2     
+nus9601.bdd_mcs.xfta2     
+baobab1.bdt_mcs.xfta2     
+baobab2.bdt_mcs.xfta2     
+baobab3.bdt_mcs.xfta2     
+cea9601.bdt_mcs.xfta2     
+chinese.bdt_mcs.xfta2     
+das9201.bdt_mcs.xfta2     
+das9202.bdt_mcs.xfta2     
+das9203.bdt_mcs.xfta2     
+das9204.bdt_mcs.xfta2     
+das9205.bdt_mcs.xfta2     
+das9206.bdt_mcs.xfta2     
+das9207.bdt_mcs.xfta2     
+das9208.bdt_mcs.xfta2     
+das9209.bdt_mcs.xfta2     
+das9601.bdt_mcs.xfta2     
+das9701.bdt_mcs.xfta2     
+edf9201.bdt_mcs.xfta2     
+edf9202.bdt_mcs.xfta2     
+edf9203.bdt_mcs.xfta2     
+edf9204.bdt_mcs.xfta2     
+edf9205.bdt_mcs.xfta2     
+edf9206.bdt_mcs.xfta2     
+edfpa14b.bdt_mcs.xfta2    
+edfpa14o.bdt_mcs.xfta2    
+edfpa14p.bdt_mcs.xfta2    
+edfpa14q.bdt_mcs.xfta2    
+edfpa14r.bdt_mcs.xfta2    
+edfpa15b.bdt_mcs.xfta2    
+edfpa15o.bdt_mcs.xfta2    
+edfpa15p.bdt_mcs.xfta2    
+edfpa15q.bdt_mcs.xfta2    
+edfpa15r.bdt_mcs.xfta2    
+elf9601.bdt_mcs.xfta2     
+ftr10.bdt_mcs.xfta2       
+isp9601.bdt_mcs.xfta2     
+isp9602.bdt_mcs.xfta2     
+isp9603.bdt_mcs.xfta2     
+isp9604.bdt_mcs.xfta2     
+isp9605.bdt_mcs.xfta2     
+isp9606.bdt_mcs.xfta2     
+isp9607.bdt_mcs.xfta2     
+jbd9601.bdt_mcs.xfta2     
+nus9601.bdt_mcs.xfta2     
+---------------------------------------------------------------------------------------
+Run set 1                 done                           425.32      143.20           -
+
+Statistics:             17 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:               1

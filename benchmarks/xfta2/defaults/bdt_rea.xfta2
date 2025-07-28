@@ -1,0 +1,13 @@
+build target-model;
+build BDT r1;
+
+set option mission-time 8760;
+set option maximum-order 2147483647;
+set option minimum-probability 1e-308;
+
+compute probability r1
+    quantification-method=rare-event-approximation
+    source-handle=BDT
+    output="/dev/fd/1"
+    mode=write;
+    
