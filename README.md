@@ -1,6 +1,6 @@
 # Aralia Fault Trees
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15293417.svg)](https://doi.org/10.5281/zenodo.15293417)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20160659.svg)](https://doi.org/10.5281/zenodo.20160659)
 
 43 fault trees, with a wide range of gate types, minimal cut sets, and top event probabilities.
 
