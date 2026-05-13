@@ -1,9 +1,6 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <opsa-mef>
 <define-fault-tree name="edfpa15b">
-<define-gate name="r1">
-<gate name="g1"/>
-</define-gate>
 <define-gate name="g1">
 <or>
 <gate name="g2"/>

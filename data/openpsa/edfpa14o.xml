@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <opsa-mef>
 <define-fault-tree name="edfpa14o">
 <define-gate name="r1">
@@ -172,7 +172,7 @@
 <define-gate name="g101">
 <and>
 <gate name="g102"/>
-<gate name="g32"/>
+<gate name="g55"/>
 </and>
 </define-gate>
 <define-gate name="g102">
@@ -341,7 +341,7 @@
 </define-gate>
 <define-gate name="g127">
 <and>
-<gate name="g33"/>
+<gate name="g58"/>
 <gate name="g136"/>
 </and>
 </define-gate>
@@ -556,12 +556,9 @@
 </define-gate>
 <define-gate name="g112">
 <and>
-<gate name="g33"/>
-<gate name="g128"/>
-</and>
-</define-gate>
-<define-gate name="g128">
+<gate name="g58"/>
 <gate name="g137"/>
+</and>
 </define-gate>
 <define-gate name="g137">
 <or>
@@ -611,9 +608,9 @@
 </define-gate>
 <define-gate name="g139">
 <and>
-<gate name="g33"/>
+<gate name="g58"/>
 <gate name="g136"/>
-<gate name="g32"/>
+<gate name="g55"/>
 <gate name="g120"/>
 </and>
 </define-gate>
@@ -647,17 +644,14 @@
 <define-gate name="g49">
 <and>
 <basic-event name="e14"/>
-<gate name="g44"/>
-</and>
-</define-gate>
-<define-gate name="g44">
 <gate name="g45"/>
+</and>
 </define-gate>
 <define-gate name="g60">
 <and>
 <gate name="g53"/>
-<gate name="g33"/>
-<gate name="g32"/>
+<gate name="g58"/>
+<gate name="g55"/>
 <gate name="g51"/>
 </and>
 </define-gate>
@@ -712,11 +706,8 @@
 <define-gate name="g34">
 <and>
 <basic-event name="e6"/>
-<gate name="g35"/>
-</and>
-</define-gate>
-<define-gate name="g35">
 <gate name="g43"/>
+</and>
 </define-gate>
 <define-gate name="g43">
 <or>
@@ -734,8 +725,8 @@
 <define-gate name="g59">
 <and>
 <gate name="g52"/>
-<gate name="g33"/>
-<gate name="g32"/>
+<gate name="g58"/>
+<gate name="g55"/>
 <gate name="g48"/>
 </and>
 </define-gate>
@@ -840,7 +831,7 @@
 </define-gate>
 <define-gate name="g132">
 <and>
-<gate name="g33"/>
+<gate name="g58"/>
 <gate name="g141"/>
 </and>
 </define-gate>
@@ -1093,7 +1084,7 @@
 </define-gate>
 <define-gate name="g88">
 <and>
-<gate name="g32"/>
+<gate name="g55"/>
 <gate name="g120"/>
 </and>
 </define-gate>
@@ -1133,12 +1124,9 @@
 </define-gate>
 <define-gate name="g61">
 <and>
-<gate name="g32"/>
-<gate name="g62"/>
-</and>
-</define-gate>
-<define-gate name="g62">
+<gate name="g55"/>
 <gate name="g64"/>
+</and>
 </define-gate>
 <define-gate name="g64">
 <or>
@@ -1221,11 +1209,8 @@
 <define-gate name="g18">
 <and>
 <basic-event name="e3"/>
-<gate name="g19"/>
-</and>
-</define-gate>
-<define-gate name="g19">
 <gate name="g56"/>
+</and>
 </define-gate>
 <define-gate name="g84">
 <or>
@@ -1304,9 +1289,9 @@
 </define-gate>
 <define-gate name="g29">
 <and>
-<gate name="g33"/>
+<gate name="g58"/>
 <gate name="g30"/>
-<gate name="g32"/>
+<gate name="g55"/>
 <gate name="g31"/>
 </and>
 </define-gate>
@@ -1325,11 +1310,8 @@
 <define-gate name="g46">
 <and>
 <basic-event name="e9"/>
-<gate name="g47"/>
-</and>
-</define-gate>
-<define-gate name="g47">
 <gate name="g50"/>
+</and>
 </define-gate>
 <define-gate name="g50">
 <or>
@@ -1385,8 +1367,8 @@
 <define-gate name="g116">
 <and>
 <gate name="g118"/>
-<gate name="g33"/>
-<gate name="g32"/>
+<gate name="g58"/>
+<gate name="g55"/>
 <gate name="g117"/>
 </and>
 </define-gate>
@@ -1411,8 +1393,8 @@
 <define-gate name="g63">
 <and>
 <gate name="g57"/>
-<gate name="g33"/>
-<gate name="g32"/>
+<gate name="g58"/>
+<gate name="g55"/>
 <gate name="g54"/>
 </and>
 </define-gate>
@@ -1422,17 +1404,11 @@
 <basic-event name="e20"/>
 </or>
 </define-gate>
-<define-gate name="g32">
-<gate name="g55"/>
-</define-gate>
 <define-gate name="g55">
 <or>
 <basic-event name="e216"/>
 <basic-event name="e217"/>
 </or>
-</define-gate>
-<define-gate name="g33">
-<gate name="g58"/>
 </define-gate>
 <define-gate name="g58">
 <or>
