@@ -1,5 +1,7 @@
 # Aralia Fault Trees
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15293417.svg)](https://doi.org/10.5281/zenodo.15293417)
+
 43 fault trees, with a wide range of gate types, minimal cut sets, and top event probabilities.
 
 | #   | Fault Tree | Basic Events | Logic Gates: Total | AND | VOT | XOR | NOT | Minimal Cut Sets      | Top Event Probability |
